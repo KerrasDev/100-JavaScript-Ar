@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellale Web - Learn Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+        }
+        .playlist {
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .playlist h2 {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .playlist img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            filter: brightness(50%);
+            transition: filter 0.3s ease;
+        }
+        .playlist:hover img {
+            filter: brightness(70%);
+        }
+        .playlist ul {
+            list-style-type: none;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .playlist ul li {
+            margin-bottom: 5px;
+        }
+        .playlist ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hellale Web</h1>
+        <p>Learn Web Development with Us!</p>
+    </header>
+    <main>
+        <section class="playlist" style="background-image: url('html.jpg'); height: 300px;">
+            <h2>Learn HTML</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/playlist?list=YOUR_HTML_PLAYLIST_ID">HTML Playlist</a></li>
+                <li><a href="https://github.com/your-username/learn-html">Code Sources</a></li>
+                <li><a href="https://www.youtube.com/watch?v=YOUR_HTML_INTRO_VIDEO_ID">Introduction Video</a></li>
+            </ul>
+            <img src="html.jpg" alt="HTML Playlist">
+        </section>
+        <section class="playlist" style="background-image: url('css.jpg'); height: 300px;">
+            <h2>Learn CSS by Creating Logos</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/playlist?list=YOUR_CSS_LOGO_PLAYLIST_ID">CSS Logo Playlist</a></li>
+                <li><a href="https://github.com/your-username/learn-css-logos">Code Sources</a></li>
+                <li><a href="https://www.youtube.com/watch?v=YOUR_CSS_LOGO_INTRO_VIDEO_ID">Introduction Video</a></li>
+            </ul>
+            <img src="css.jpg" alt="CSS Logo Playlist">
+        </section>
+        <section class="playlist" style="background-image: url('landing.jpg'); height: 300px;">
+            <h2>Create Landing Pages</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/playlist?list=YOUR_LANDING_PAGE_PLAYLIST_ID">Landing Page Playlist</a></li>
+                <li><a href="https://github.com/your-username/create-landing-pages">Code Sources</a></li>
+                <li><a href="https://www.youtube.com/watch?v=YOUR_LANDING_PAGE_INTRO_VIDEO_ID">Introduction Video</a></li>
+            </ul>
+            <img src="landing.jpg" alt="Landing Page Playlist">
+        </section>
+        <section class="playlist" style="background-image: url('javascript.jpg'); height: 300px;">
+            <h2>The First 100 Exercises in JavaScript</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/playlist?list=YOUR_JS_EXERCISES_PLAYLIST_ID">JavaScript Exercises Playlist</a></li>
+                <li><a href="https://github.com/your-username/the-first-100-js-exercises">Code Sources</a></li>
+                <li><a href="https://www.youtube.com/watch?v=YOUR_JS_EXERCISES_INTRO_VIDEO_ID">Introduction Video</a></li>
+            </ul>
+            <img src="javascript.jpg" alt="JavaScript Exercises Playlist">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hellale Web. All rights reserved.</p>
+    </footer>
+</body>
+</html>
