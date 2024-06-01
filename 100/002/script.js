@@ -1,52 +1,26 @@
 // script.js
 
-// دالة لحساب المجموع وتطبيق الشرط
-function computeSumAndApplyCondition(a, b) {
-    // if (typeof a !== 'number' || typeof b !== 'number') {
-    //     throw new Error('Both arguments must be numbers.');
-    // }
+document.getElementById('input-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const inputString = document.getElementById('input-string').value;
+    analyzeString(inputString);
+});
 
-    if (a === b) {
-        return 3 * (a + b);
-    } else {
-        return a + b;
-    }
-}
-
-// دالة لتشغيل حالات الاختبار وعرض النتائج
-function runTestCases() {
-    const testCases = [
-        { args: [1, 2], expected: 3 },
-        { args: [3, 2], expected: 5 },
-        { args: [2, 2], expected: 12 }
-    ];
-
-    const testResultElement = document.getElementById('test-result-output');
-    const functionResultElement = document.getElementById('function-result-output');
-
-    let testResult = "تم اجتياز جميع حالات الاختبار بنجاح.";
-    let functionResult = "";
-
-    testCases.forEach((testCase, index) => {
-        const { args, expected } = testCase;
-
-        try {
-            const actual = computeSumAndApplyCondition(...args);
-
-            // التحقق مما إذا كانت النتيجة الفعلية تتطابق مع النتيجة المتوقعة
-            if (actual !== expected) {
-                testResult = `فشلت حالة الاختبار ${index + 1}. المتوقع: ${expected}، الحصول على: ${actual}`;
-            }
-
-            functionResult += `حالة الاختبار ${index + 1}: computeSumAndApplyCondition(${args[0]}, ${args[1]}) => ${actual}\n`;
-        } catch (error) {
-            testResult = `خطأ في حالة الاختبار ${index + 1}: ${error.message}`;
+function analyzeString(inputString) {
+    const frequencyMap = {};
+    for (let char of inputString) {
+        if (frequencyMap[char]) {
+            frequencyMap[char]++;
+        } else {
+            frequencyMap[char] = 1;
         }
-    });
+    }
 
-    testResultElement.textContent = `نتيجة الاختبار: ${testResult}`;
-    functionResultElement.textContent = `نتيجة الدالة:\n${functionResult}`;
+    const sortedChars = Object.keys(frequencyMap).sort((a, b) => a.charCodeAt(0) - b.charCodeAt(0));
+    let resultOutput = '';
+    for (let char of sortedChars) {
+        resultOutput += `الحرف '${char}' يظهر ${frequencyMap[char]} مرة\n`;
+    }
+
+    document.getElementById('result-output').textContent = resultOutput;
 }
-
-// استدعاء دالة runTestCases لعرض النتائج
-runTestCases();
