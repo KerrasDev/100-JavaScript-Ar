@@ -15,24 +15,13 @@
 3\. قم بتنفيذ حلك بلغة JavaScript.
 
 4\. قارن حلك بالحلول المقدمة لتعلم الطرق المختلفة للحل.
+# حالات التمرين
 
-## جدول التمارين
-
-| رقم التمرين | عنوان المشروع | الرابط |
-
-|-----------------|---------------|------|
-
-| التمرين 1: حساب المجموع وتطبيق الشرط            | الرابط على اليوتيوب  | [Exercise 001](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
-
-| التمرين 1: تحليل تكرار الأحرف             | الرابط على اليوتيوب | [Exercise 002](https://kerrasdev.github.io/-100-JavaScript/100/002/indix.html) |
-
-| التمرين 1: حساب المجموع وتطبيق الشرط            | الرابط على اليوتيوب  | [Exercise 001](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
-
-| التمرين 1: تحليل تكرار الأحرف             | الرابط على اليوتيوب | [Exercise 002](https://kerrasdev.github.io/-100-JavaScript/100/002/indix.html) |
-
-| التمرين 1: حساب المجموع وتطبيق الشرط            | الرابط على اليوتيوب  | [Exercise 001](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
-
-| التمرين 1: تحليل تكرار الأحرف             | الرابط على اليوتيوب | [Exercise 002](https://kerrasdev.github.io/-100-JavaScript/100/002/indix.html) |
+| العنوان | رابط يوتيوب | رابط GitHub |
+|---------|--------------|--------------|
+| التمرين 1: حساب المجموع وتطبيق الشرط | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://github.com/kerrasdev/-100-JavaScript/100/001/indix.html) |
+| التمرين 2: تحليل تكرار الأحرف بناءً على القيم ASCII | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://github.com/kerrasdev/-100-JavaScript/100/002/indix.html) |
+| التمرين 3: عنوان التمرين الخاص بك | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://github.com/kerrasdev/-100-JavaScript/100/003/indix.html) |
 
 الأهداف الرئيسية لهذا المشروع هي:
 
