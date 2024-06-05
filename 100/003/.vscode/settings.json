@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "stdlib.h": "c"
+    }
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+"editor.fontLigatures": true
+
+
+}

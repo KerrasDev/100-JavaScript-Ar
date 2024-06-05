@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html lang="ar"  dir="rtl">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>التمارين الأولى 100 في JavaScript</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أول 100 مشروع</title>
+  <link rel="stylesheet" href="stayles.css">
 </head>
 <body>
-    <header>
-        <h1>التمارين الأولى 100 في JavaScript</h1>
-    </header>
+  <header>
+    <h1>أول 100 مشروع كمبرمج مواقع</h1>
+  </header>
+  <main>
+    <section id="exercise-description">
+      <h2>التمرين 1: حساب المجموع وتطبيق الشرط</h2>
+      <p>اكتب برنامج يقوم بحساب مجموع قيمتين صحيحتين معطاة. إذا كانت القيمتان متطابقتين، فعليك بإرجاع ثلاثة أضعاف مجموعهما.</p>
+      <p><strong>أمثلة:</strong></p>
+      <ul>
+        <li>بالنسبة لقيم الإدخال 1 و 2، يجب أن يكون الناتج <strong>3</strong>.</li>
+        <li>بالنسبة لقيم الإدخال 3 و 2، يجب أن يكون الناتج <strong>5</strong>.</li>
+        <li>بالنسبة لقيم الإدخال 2 و 2، يجب أن يكون الناتج <strong>12</strong>.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>أدخل الأرقام</h2>
+      <input type="number" id="nbre1" placeholder="الرقم 1">
+      <input type="number" id="nbre2" placeholder="الرقم 2">
+      <button id="calculateButton">أحسب</button>
+    </section>
     
-    <main>
-        <section id="exercise-description">
-            <h2>التمرين 1: حساب المجموع وتطبيق الشرط</h2>
-            <p>اكتب برنامج JavaScript يقوم بحساب مجموع قيمتين صحيحتين معطاة. إذا كانت القيمتان متطابقتين، فعليك بإرجاع ثلاثة أضعاف مجموعهما.</p>
-            <p><strong>أمثلة:</strong></p>
-            <ul>
-                <li>بالنسبة لقيم الإدخال 1 و 2، يجب أن يكون الناتج <strong>3</strong>.</li>
-                <li>بالنسبة لقيم الإدخال 3 و 2، يجب أن يكون الناتج <strong>5</strong>.</li>
-                <li>بالنسبة لقيم الإدخال 2 و 2، يجب أن يكون الناتج <strong>12</strong>.</li>
-            </ul>
-        </section>
-
-        <section id="test-result">
-            <h2>نتيجة الاختبار</h2>
-            <pre id="test-result-output">// سيتم عرض نتيجة الاختبار هنا</pre>
-        </section>
-
-        <section id="function-result">
-            <h2>نتيجة الدالة</h2>
-            <pre id="function-result-output">// سيتم عرض نتيجة الدالة هنا</pre>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy;هلال ويب</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <section id="test-result">
+      <h2>نتيجة الاختبار</h2>
+      <pre id="test-result-output">نتيجة الاختبار :</pre>
+    </section>
+    <section id="function-result">
+      <h2>نتيجة الدالة</h2>
+      <pre id="function-result-output">
+        نتيجة الدالة : 
+      </pre>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; هلال ويب</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
