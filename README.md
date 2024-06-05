@@ -19,9 +19,9 @@
 
 | العنوان | رابط يوتيوب | رابط GitHub |
 |---------|--------------|--------------|
-| التمرين 1: حساب المجموع وتطبيق الشرط | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
-| التمرين 2: تحليل تكرار الأحرف بناءً على القيم ASCII | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/-100-JavaScript/100/002/indix.html) |
-| التمرين 3: عنوان التمرين الخاص بك | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
+| التمرين 1: حساب المجموع وتطبيق الشرط | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](lhttps://kerrasdev.github.io/100-JavaScript-Ar/100/001/indix.html) |
+| التمرين 2: تحليل تكرار الأحرف بناءً على القيم ASCII | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/100-JavaScript-Ar/100/002/indix.html) |
+| التمرين 3: عنوان التمرين الخاص بك | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/100-JavaScript-Ar/100/003/indix.html) |
 
 الأهداف الرئيسية لهذا المشروع هي:
 
