@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب المجموع</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>حساب المجموع</h1>
+        <button id="dark-mode-toggle">تبديل الوضع الداكن</button>
+    </header>
+    
+    <main>
+        <section id="computation-section">
+            <h2>أدخل قيمتين صحيحتين</h2>
+            <form id="computation-form">
+                <label for="value1">أدخل القيمة الأولى:</label>
+                <input type="number" id="value1" name="value1" required>
+                <label for="value2">أدخل القيمة الثانية:</label>
+                <input type="number" id="value2" name="value2" required>
+                <button type="submit">حساب المجموع</button>
+            </form>
+            <div id="result-output">
+                <h3>النتيجة:</h3>
+                <p id="result"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 حساب المجموع</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
