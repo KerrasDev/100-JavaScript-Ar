@@ -19,53 +19,12 @@
 
 | العنوان | رابط يوتيوب | رابط GitHub |
 |---------|--------------|--------------|
-| التمرين 1: حساب المجموع وتطبيق الشرط | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
-| التمرين 2: تحليل تكرار الأحرف بناءً على القيم ASCII | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/-100-JavaScript/100/002/indix.html) |
-| التمرين 3: عنوان التمرين الخاص بك | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/-100-JavaScript/100/001/indix.html) |
+| التمرين 1: حساب المجموع وتطبيق الشرط | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/100-JavaScript-Ar/100/001/indix.html) |
+| التمرين 2: تحليل تكرار الأحرف بناءً على القيم ASCII | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/100-JavaScript-Ar/100/002/indix.html) |
+| التمرين 3: عنوان التمرين الخاص بك | [رابط يوتيوب](https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID) | [رابط GitHub](https://kerrasdev.github.io/100-JavaScript-Ar/100/003/indix.html) |
 
 الأهداف الرئيسية لهذا المشروع هي:
 
 1.  تعليمي: توفير مسار تعليمي منظم للمبتدئين في JavaScript.
 2.  عملي: تقديم تمارين عملية لتعزيز المعرفة النظرية بالممارسة الفعلية.
 3.  مشاركة: تعزيز مجتمع من المتعلمين من خلال النقاش والتعاون.
-
-الميزات
--------
-
--   تعلم منظم: يتم تنظيم التمارين بطريقة تسلسلية للبناء فوق المفاهيم التي تم تعلمها مسبقاً.
--   تفاعلي: يتم توفير أمثلة وحلول لتشجيع التجربة والتعلم من خلال القيام بالتمارين.
--   دعم المجتمع: يمكن للمستخدمين التفاعل من خلال التعليقات والمناقشات على GitHub.
--   التلقائية: يتم استخدام GitHub Actions لتوتيس إضافة التمارين الجديدة إلى المستودع بشكل تلقائي.
-
-كيفية الاستخدام
----------------
-
-1.  استنسخ المستودع: `git clone <repository-url>`
-2.  انتقل إلى دليل التمارين: `cd The-First-100-Exercises-in-JavaScript`
-3.  افتح ملف التمرين (HTML، CSS، JavaScript) في محررك المفضل.
-4.  اقرأ وصف التمرين والأمثلة.
-5.  قم بتنفيذ الحل في ملف JavaScript.
-6.  اختبر حلك وراجع الأمثلة المقدمة.
-7.  قم بتأكيد التغييرات وإرسالها إلى مستودعك.
-
-المساهمات
----------
-
-المساهمات في هذا المشروع هي مرحب بها! للمساهمة:
-
-1.  انسخ المستودع.
-2.  أنشئ فرع جديد (`git checkout -b feature/new-exercise`).
-3.  أضف ملف التمرين وفقًا للهيكل الموجود.
-4.  اختبر التمرين محليًا.
-5.  قم بتأكيد التغييرات (`git commit -am 'Add new exercise'`).
-6.  أرسل التغييرات إلى الفرع (`git push origin feature/new-exercise`).
-7.  أنشئ طلب سحب جديد.
-
-الترخيص
--------
-
-هذا المشروع مرخص بموجب رخصة MIT - انظر [LICENSE](https://chatgpt.com/c/LICENSE) للتفاصيل.
-
-* * * * *
-
-لمزيد من التفاصيل وآخر التحديثات، قم بزيارة [مستودع GitHub](https://chatgpt.com/c/repository-url).
