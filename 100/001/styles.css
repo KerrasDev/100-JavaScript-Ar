@@ -96,8 +96,8 @@ form button:hover {
  margin-top: 1rem;
 }
 
-#result-output.dark-mode {
- color: #f4f4f4;
+#result-output.dark-mode p {
+ color: #1e1e1e;
 }
 
 #result {
@@ -122,6 +122,7 @@ form button:hover {
 #dark-mode-toggle {
  background-color: #008CBA;
  color: white;
+ font-size: larger;
  border: none;
  border-radius: 5px;
  padding: 0.5rem 1rem;
